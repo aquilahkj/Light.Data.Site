@@ -59,6 +59,31 @@ The method of batch delete datas
 BatchDelete<T>(IEnumerable<T> datas)
 ```
 
+## Insert Or Update Data
+
+Auto determine whether insert or updated data is needed based on the primary key, When using an auto increment ID as the primary key, the database ID must start with 1.
+
+```csharp
+TeUser user = new TeUser ();
+user.Account = "test";
+user.Birthday = new DateTime (2001, 10, 20);
+user.Email = "test@test.com";
+user.Gender = GenderType.Female;
+user.LevelId = 1;
+user.NickName = "foo";
+user.Password = "bar";
+user.RegTime = new DateTime (2015, 12, 30, 18, 0, 0);
+user.Status = 1;
+user.Telephone = "12345678";
+user.HotRate = 1.0d;
+// Insert
+context.InsertOrUpdate (user);
+
+user.Status = 2;
+// Update
+context.InsertOrUpdate (user);
+```
+
 ## Data Entity Class
 
 Mapping type can be inherited base class `DataTableEntity`, and use base class methods for CUD operation. This type is defined as an entity table. 

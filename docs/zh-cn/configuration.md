@@ -53,9 +53,9 @@ providerName - 支持的数据库
 
 | 数据库 | Provider | 说明 |
 |:------|:------|:------|
-| SqlServer | Light.Data.Mssql.MssqlProvider | 需`nuget`安装`Light.Data.Mssql`类库 |
-| Mysql | Light.Data.Mysql.MysqlProvider | 需`nuget`安装`Light.Data.Mysql`类库 |
-| Postgre | Light.Data.Postgre.PostgreProvider | 需`nuget`安装`Light.Data.Postgre`类库 |
+| SqlServer | Light.Data.Mssql.MssqlProvider | 需安装`Light.Data.Mssql`类库 |
+| Mysql | Light.Data.Mysql.MysqlProvider | 需安装`Light.Data.Mysql`类库 |
+| Postgre | Light.Data.Postgre.PostgreProvider | 需安装`Light.Data.Postgre`类库 |
 
 configParam 参数设置
 
@@ -184,9 +184,9 @@ DataContextOptionsBuilder<TContext> 方法
 
 | 方法 | 说明 |
 |:------|:------|
-| UseMssql(string connectionString) | 设置`SqlServer`连接字符串, 需`nuget`安装Light.Data.Mssql类库 |
-| UseMysql(string connectionString) | 设置`Mysql`连接字符串, 需`nuget`安装Light.Data.Mysql类库 |
-| UsePostgre(string connectionString) | 设置`Postgre`连接字符串, 需`nuget`安装Light.Data.Postgre类库 |
+| UseMssql(string connectionString) | 设置`SqlServer`连接字符串, 需安装Light.Data.Mssql类库 |
+| UseMysql(string connectionString) | 设置`Mysql`连接字符串, 需安装Light.Data.Mysql类库 |
+| UsePostgre(string connectionString) | 设置`Postgre`连接字符串, 需安装Light.Data.Postgre类库 |
 | SetTimeout(int timeout) | 设置执行超时时间, 单位毫秒, 默认60000 |
 | SetBatchInsertCount(int timeout) | 设置批量新增数据每组语句块处理数, 默认10 |
 | SetBatchUpdateCount(int timeout) | 设置批量更新数据每组语句块处理数, 默认10 |

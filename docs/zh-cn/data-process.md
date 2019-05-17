@@ -1,6 +1,6 @@
 # 数据处理
 
-## 增加数据
+## 新增数据
 
 自增`ID`会在Insert后自动赋值
 
@@ -57,6 +57,31 @@ context.Delete (user);
 
 ```csharp
 BatchDelete<T>(IEnumerable<T> datas)
+```
+
+## 新增或更新数据
+
+根据主键自动判定需要新增数据还是更新数据, 当使用自增ID做主键时, 数据库ID必须由1开始.
+
+```csharp
+TeUser user = new TeUser ();
+user.Account = "test";
+user.Birthday = new DateTime (2001, 10, 20);
+user.Email = "test@test.com";
+user.Gender = GenderType.Female;
+user.LevelId = 1;
+user.NickName = "foo";
+user.Password = "bar";
+user.RegTime = new DateTime (2015, 12, 30, 18, 0, 0);
+user.Status = 1;
+user.Telephone = "12345678";
+user.HotRate = 1.0d;
+// 新增
+context.InsertOrUpdate (user);
+
+user.Status = 2;
+// 更新
+context.InsertOrUpdate (user);
 ```
 
 ## 数据实体类

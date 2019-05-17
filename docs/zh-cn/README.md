@@ -6,9 +6,9 @@
 
 | 数据库 | 说明 |
 |:------|:------|
-| SqlServer | 需`nuget`安装`Light.Data.Mssql`类库, 支持SqlServer 2008或以上 |
-| Mysql | 需`nuget`安装`Light.Data.Mysql`类库 |
-| Postgre | 需`nuget`安装`Light.Data.Postgre`类库 |
+| SqlServer | 需安装`Light.Data.Mssql`类库, 支持SqlServer 2008或以上 |
+| Mysql | 需安装`Light.Data.Mysql`类库 |
+| Postgre | 需安装`Light.Data.Postgre`类库 |
 
 #### 基本操作
 

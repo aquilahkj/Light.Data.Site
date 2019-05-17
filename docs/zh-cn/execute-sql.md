@@ -104,13 +104,13 @@ var list = executor.QueryList<TeUser>();
 
 ## 执行存储过程
 
-执行操作方式与执行语句一致, 储存过程的参数可以`Output`
+执行操作方式与执行语句一致, 储存过程的参数可以`Output`.
 
 ### 参数数组
 
 使用`DataParameter`数组作参数, 在数组中定义参数名和数据值, 参数名需要与存储过程的参数名一致.
 
-储存过程参数可使用DataParameterMode.Output定义参数方向, 执行完成后, output结果写回在`Value`中.
+储存过程参数可使用`DataParameterMode.Output`定义参数`Output`方向, 执行完成后, output结果写回在参数的`Value`属性中.
 
 ```csharp
 var sp = "mysp";
@@ -133,7 +133,7 @@ var executor = context.CreateStoreProcedureExecutor(sp, new { P1 = 5, P2 = 8 });
 var list = executor.QueryList<TeUser>();
 ```
 
-进阶, 存储过程的自定义对象参数可以使用`DataParameterAttribute`定义参数名和参数方向, 含output方向数据会在存储过程执行后回写到对象指定字段中
+进阶, 存储过程的自定义对象参数可以使用`DataParameterAttribute`定义参数名和参数方向, 含`Output`方向数据会在存储过程执行后回写到对象指定字段中
 
 ```csharp
 class TestDataParam
