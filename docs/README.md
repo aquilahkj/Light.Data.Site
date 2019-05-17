@@ -6,9 +6,9 @@ Supported Database
 
 | Database | Introduce |
 |:------|:------|
-| SqlServer | Need to use `nuget` install `Light.Data.Mssql` library, SqlServer 2008 support or above |
-| Mysql | Need to use `nuget` install `Light.Data.Mysql` library |
-| Postgre | Need to use `nuget` install `Light.Data.Postgre` library |
+| SqlServer | Need to install `Light.Data.Mssql` library, SqlServer 2008 support or above |
+| Mysql | Need to install `Light.Data.Mysql` library |
+| Postgre | Need to install `Light.Data.Postgre` library |
 
 #### Basic Operation
 

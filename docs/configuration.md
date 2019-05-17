@@ -55,9 +55,9 @@ providerName - Supported databases
 
 | Database | Provider | Introduce |
 |:------|:------|:------|
-| SqlServer | Light.Data.Mssql.MssqlProvider | Need to use `nuget` install `Light.Data.Mssql` library |
-| Mysql | Light.Data.Mysql.MysqlProvider |Need to use `nuget` install `Light.Data.Mysql` library |
-| Postgre | Light.Data.Postgre.PostgreProvider | Need to use `nuget` install `Light.Data.Postgre` library |
+| SqlServer | Light.Data.Mssql.MssqlProvider | Need to install `Light.Data.Mssql` library |
+| Mysql | Light.Data.Mysql.MysqlProvider |Need to install `Light.Data.Mysql` library |
+| Postgre | Light.Data.Postgre.PostgreProvider | Need to install `Light.Data.Postgre` library |
 
 configParam - Parameter Settings
 
@@ -188,9 +188,9 @@ DataContextOptionsBuilder<TContext> method
 
 | Method | Introduce |
 |:------|:------|
-| UseMssql(string connectionString) | Set up connection string for `SqlServer`, Need to use `nuget` install `Light.Data.Mssql` library |
-| UseMysql(string connectionString) | Set up connection string `Mysql`,  Need to use `nuget` install `Light.Data.Mysql` library |
-| UsePostgre(string connectionString) | Set up connection string `Postgre`, Need to use `nuget` install `Light.Data.Postgre` library |
+| UseMssql(string connectionString) | Set up connection string for `SqlServer`, Need to install `Light.Data.Mssql` library |
+| UseMysql(string connectionString) | Set up connection string `Mysql`,  Need to install `Light.Data.Mysql` library |
+| UsePostgre(string connectionString) | Set up connection string `Postgre`, Need to install `Light.Data.Postgre` library |
 | SetTimeout(int timeout) | Set up execution timeout, unit milliseconds, defaults 60,000 |
 | SetBatchInsertCount(int timeout) | Set up the number of batch insert data each group statement block, default 10 |
 | SetBatchUpdateCount(int timeout) | Set up the number of batch update data each group statement block, default 100 |
