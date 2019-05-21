@@ -6,9 +6,9 @@
 
 | 数据库 | 说明 |
 |:------|:------|
-| SqlServer | 需安装`Light.Data.Mssql`类库, 支持SqlServer 2008或以上 |
-| Mysql | 需安装`Light.Data.Mysql`类库 |
-| Postgre | 需安装`Light.Data.Postgre`类库 |
+| SqlServer | 安装`Light.Data.Mssql`类库, 支持SqlServer 2008或以上 |
+| Mysql | 安装`Light.Data.Mysql`类库, 支持Mysql5.5或以上 |
+| Postgre | 安装`Light.Data.Postgre`类库, 支持PostgreSQL9.3或以上 |
 
 #### 基本操作
 

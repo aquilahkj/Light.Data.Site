@@ -77,7 +77,6 @@ SqlServer version - Feature list
 |:------|:------|:------|
 | 10.0 | SqlServer 2008 | version>=10.0 Optimized batch insert data SQL, Default |
 | 11.0 | SqlServer 2012 | version>=11.0 Support use offset to paging query |
-| 12.0 | SqlServer 2014 |  |
 
 ## Global Configuration
 

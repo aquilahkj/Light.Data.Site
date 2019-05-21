@@ -75,7 +75,6 @@ SqlServer version 功能列表
 |:------|:------|:------|
 | 10.0 | SqlServer 2008 | version>=10.0 优化批量新增数据的SQL语句, 默认 |
 | 11.0 | SqlServer 2012 | version>=11.0 支持offset分页查询 |
-| 12.0 | SqlServer 2014 |  |
 
 ## 全局配置
 
