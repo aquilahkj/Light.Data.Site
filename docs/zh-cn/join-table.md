@@ -71,7 +71,7 @@ var join = context.Query<TeUser> ()
 //实体表连接统计结果
 var join = context.Query<TeUser>()
                   .Join(context.Query<TeUserSub>()
-                               .GroupBy(x => new {
+                               .Aggregate(x => new {
                                    MId = x.MId,
                                    Count = Function.Count(),
                                 }), (x, y) => x.Id == y.MId
@@ -79,7 +79,7 @@ var join = context.Query<TeUser>()
         
 //统计结果连接实体表             
 var join = context.Query<TeMainTable>()
-                  .GroupBy(x => new {
+                  .Aggregate(x => new {
                       MId = x.MId,
                       Count = Function.Count(),
                    })
