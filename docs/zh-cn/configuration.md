@@ -20,12 +20,12 @@ DataContextConfiguration.SetConfigFilePath("Config/lightdata.json");
       {
         "name": "mssql",
         "connectionString": "Data Source=127.0.0.1;User ID=sa;Password=***;Initial Catalog=LightData_Test;",
-        "providerName": "Light.Data.Mssql.MssqlProvider"
+        "providerName": "Light.Data.Mssql.MssqlProvider, Light.Data.Mssql"
       },
       {
         "name": "mssql_2012",
         "connectionString": "Data Source=192.168.0.1;User ID=sa;Password=***;Initial Catalog=LightData_Test;",
-        "providerName": "Light.Data.Mssql.MssqlProvider",
+        "providerName": "Light.Data.Mssql.MssqlProvider, Light.Data.Mssql",
         "configParams": {
           "version" : "11.0"
         }
