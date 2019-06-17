@@ -1,6 +1,6 @@
 # LightData 使用文档
 
-`Light.Data`是一个轻量级的基于`dotnet standard 2.0`的ORM框架, 通过对实体模型类的`Attribute`或者配置文件进行配置与数据表的对应关系. 使用核心类`DataContext`对数据表进行`CURD`的操作.
+`Light.Data`是一个轻量级的基于`dotnet standard 2.0`的ORM框架, 通过对实体模型类的`Attribute`或者配置文件进行配置与数据表的对应关系. 使用核心类`DataContext`对数据表进行`CRUD`的操作.
 
 支持数据库
 
@@ -12,7 +12,7 @@
 
 #### 基本操作
 
-* 基本CURD
+* 基本CRUD
 * 批量CUD
 * 支持事务处理
 * 支持数据字段默认值和自动时间戳

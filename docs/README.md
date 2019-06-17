@@ -1,6 +1,6 @@
 # LightData Guide Document
 
-`Light.Data` is a lightweight ORM framework which based on `dotnet standard 2.0`, through to the entity model class `Attribute` or configuration files relate data table. Use core class `DataContext` was carried out on the table to `CURD` operation.
+`Light.Data` is a lightweight ORM framework which based on `dotnet standard 2.0`, through to the entity model class `Attribute` or configuration files relate data table. Use core class `DataContext` was carried out on the table to `CRUD` operation.
 
 Supported Database
 
@@ -12,7 +12,7 @@ Supported Database
 
 #### Basic Operation
 
-* Basic CURD
+* Basic CRUD
 * Batch CUD
 * Supports transaction processing
 * Supports data fields default value and automatic timestamp

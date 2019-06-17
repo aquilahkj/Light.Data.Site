@@ -2,7 +2,7 @@
 
 ## Attribute Mapping Define
 
-`Light.Data` through to the entity model class `Attribute` or configuration files relate data table. Use core class `DataContext` was carried out on the table to `CURD` operation.
+`Light.Data` through to the entity model class `Attribute` or configuration files relate data table. Use core class `DataContext` was carried out on the table to `CRUD` operation.
 
 ```csharp
 [DataTable("Te_User", IsEntityTable = true)]
